@@ -1,5 +1,5 @@
 # deep_learning_SNOM
-This repository gives the core codes for the paper: https://arxiv.org/abs/2202.02979.
+This repository gives the core codes for the paper: https://doi.org/10.1063/5.0139517.
 
 ## Data generation
 - We follow the codes provided in https://doi.org/10.1063/1.4941343 to generate all training data. We recommend the reader check the corresponding Supplementary Materials for all of the information.
