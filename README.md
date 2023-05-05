@@ -5,7 +5,7 @@ This repository gives the core codes for the paper: https://doi.org/10.1063/5.01
 - We follow the codes provided in https://doi.org/10.1063/1.4941343 to generate all training data. We recommend the reader check the corresponding Supplementary Materials for all of the information.
 - Meanwhile, the full signal simulation for any tip aspect ratio is also implemented in `iHNN_prediction_spheroid.py`, `FindBetaR.m`, and `PolesResidues.m`.
 - `iHNN_prediction_spheroid.py` calls `FindBetaR.m` and `FindBetaR.m`calls `PolesResidues.m`.
-- For a special tip aspect ratio $L=25a$, the signal can be rapidly generated using ratioanl approximation [[1]](#1). This is implemented in `iHNN_prediction_rational.py`
+- For a special tip aspect ratio $L=25a$, the signal can be rapidly generated using rational approximation [[1]](#1). This is implemented in `iHNN_prediction_rational.py`
 
 ## Network construction and training
 The following file implement the network depicted in the `Figure 3` of the main text.
